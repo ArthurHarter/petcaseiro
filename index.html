@@ -348,6 +348,8 @@ nav a:hover { background: rgba(255,255,255,0.1); color: #fff; }
   box-shadow: var(--shadow);
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .article-card:hover {
@@ -950,16 +952,16 @@ footer {
 ══════════════════════════════════════ -->
 <header>
   <div class="header-inner">
-    <a href="/" class="logo">
+    <a href="index.html" class="logo">
       <div class="logo-icon">🐾</div>
       <span class="logo-text">Pet<span>Caseiro</span></span>
     </a>
     <nav>
-      <a href="#">Cães</a>
-      <a href="#">Gatos</a>
-      <a href="#">Saúde</a>
-      <a href="#">Nutrição</a>
-      <a href="#">Produtos</a>
+      <a href="caes.html">Cães</a>
+      <a href="gatos.html">Gatos</a>
+      <a href="saude.html">Saúde</a>
+      <a href="nutricao.html">Nutrição</a>
+      <a href="produtos.html">Produtos</a>
     </nav>
     <a href="#newsletter" class="header-cta">📬 Newsletter grátis</a>
   </div>
@@ -1044,13 +1046,13 @@ footer {
     <div id="artigos">
       <div class="section-header">
         <h2 class="section-title">Artigos em destaque</h2>
-        <a href="#" class="section-link">Ver todos →</a>
+        <a href="caes.html" class="section-link">Ver todos →</a>
       </div>
 
       <div class="articles-grid">
 
         <!-- ARTIGO DESTAQUE (tráfego) -->
-        <div class="article-card featured">
+        <a href="cachorro-coca-tanto.html" style="text-decoration:none;color:inherit;display:contents;"><div class="article-card featured">
           <div class="article-thumb" style="background:#E8F4E8; font-size:80px;">🐕</div>
           <div class="article-body">
             <span class="article-cat cat-saude">Saúde</span>
@@ -1069,7 +1071,7 @@ footer {
           <div class="article-thumb" style="background:#FFF0CC;">🐱</div>
           <div class="article-body">
             <span class="article-cat cat-nutri">Nutrição</span>
-            <h3 class="article-title">Gato não bebe água? Veja como resolver agora</h3>
+            <a href="gato-nao-bebe-agua.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">Gato não bebe água? Veja como resolver agora</h3>
             <p class="article-excerpt">Gatos são naturalmente pouco sedentes — mas há soluções simples que funcionam.</p>
             <div class="article-meta">
               <span>⏱ 6 min</span>
@@ -1083,7 +1085,7 @@ footer {
           <div class="article-thumb" style="background:#E6F4E8;">🏆</div>
           <div class="article-body">
             <span class="article-cat cat-compra">Comparativo</span>
-            <h3 class="article-title">10 melhores rações para filhote de cão em 2025</h3>
+            <a href="racoes-filhote.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">10 melhores rações para filhote de cão em 2025</h3>
             <p class="article-excerpt">Comparamos preço, ingredientes e avaliações para você escolher a certa.</p>
             <div class="article-meta">
               <span>⏱ 10 min</span>
@@ -1310,7 +1312,7 @@ footer {
     <!-- MAIS ARTIGOS -->
     <div class="section-header" style="margin-top: 12px;">
       <h2 class="section-title">Mais artigos</h2>
-      <a href="#" class="section-link">Ver todos →</a>
+      <a href="nutricao.html" class="section-link">Ver todos →</a>
     </div>
 
     <div class="articles-grid">
@@ -1318,7 +1320,7 @@ footer {
         <div class="article-thumb" style="background:#FDEAE4;">🏥</div>
         <div class="article-body">
           <span class="article-cat cat-saude">Saúde</span>
-          <h3 class="article-title">Calendário de vacinas para cães: guia completo</h3>
+          <a href="calendario-vacinas-caes.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">Calendário de vacinas para cães: guia completo</h3>
           <div class="article-meta"><span>⏱ 7 min</span><span class="article-read">Ler →</span></div>
         </div>
       </div>
@@ -1326,7 +1328,7 @@ footer {
         <div class="article-thumb" style="background:#E3F0F9;">🐟</div>
         <div class="article-body">
           <span class="article-cat cat-nutri">Nutrição</span>
-          <h3 class="article-title">Pode dar atum para gato? A resposta vai te surpreender</h3>
+          <a href="pode-dar-atum-para-gato.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">Pode dar atum para gato? A resposta vai te surpreender</h3>
           <div class="article-meta"><span>⏱ 5 min</span><span class="article-read">Ler →</span></div>
         </div>
       </div>
@@ -1334,7 +1336,7 @@ footer {
         <div class="article-thumb" style="background:#FFF0CC;">🧠</div>
         <div class="article-body">
           <span class="article-cat cat-comporta">Comportamento</span>
-          <h3 class="article-title">Como ensinar "fica" e "senta" em 3 dias</h3>
+          <a href="como-ensinar-fica-senta.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">Como ensinar "fica" e "senta" em 3 dias</h3>
           <div class="article-meta"><span>⏱ 6 min</span><span class="article-read">Ler →</span></div>
         </div>
       </div>
@@ -1342,7 +1344,7 @@ footer {
         <div class="article-thumb" style="background:#E8F4E8;">💊</div>
         <div class="article-body">
           <span class="article-cat cat-saude">Saúde</span>
-          <h3 class="article-title">Vermífugo para cão: frequência, doses e marcas</h3>
+          <a href="vermifugo-caes.html" style="text-decoration:none;color:inherit;display:block;"><h3 class="article-title">Vermífugo para cão: frequência, doses e marcas</h3>
           <div class="article-meta"><span>⏱ 5 min</span><span class="article-read">Ler →</span></div>
         </div>
       </div>
@@ -1440,13 +1442,13 @@ footer {
       <div class="sidebar-card-header">📂 Categorias</div>
       <div class="sidebar-card-body">
         <ul class="category-list">
-          <li><a href="#">🐕 Cães <span class="cat-count">48</span></a></li>
-          <li><a href="#">🐱 Gatos <span class="cat-count">31</span></a></li>
-          <li><a href="#">🍽️ Nutrição <span class="cat-count">24</span></a></li>
-          <li><a href="#">💊 Saúde e Vacinas <span class="cat-count">19</span></a></li>
-          <li><a href="#">🧠 Comportamento <span class="cat-count">15</span></a></li>
-          <li><a href="#">🛒 Comparativos <span class="cat-count">22</span></a></li>
-          <li><a href="#">🏠 Pet em Apartamento <span class="cat-count">12</span></a></li>
+          <li><a href="caes.html">🐕 Cães <span class="cat-count">48</span></a></li>
+          <li><a href="gatos.html">🐱 Gatos <span class="cat-count">31</span></a></li>
+          <li><a href="nutricao.html">🍽️ Nutrição <span class="cat-count">24</span></a></li>
+          <li><a href="saude.html">💊 Saúde e Vacinas <span class="cat-count">19</span></a></li>
+          <li><a href="comportamento.html">🧠 Comportamento <span class="cat-count">15</span></a></li>
+          <li><a href="produtos.html">🛒 Comparativos <span class="cat-count">22</span></a></li>
+          <li><a href="pet-apartamento.html">🏠 Pet em Apartamento <span class="cat-count">12</span></a></li>
         </ul>
       </div>
     </div>
@@ -1508,31 +1510,31 @@ footer {
       <div class="footer-col">
         <h4>Conteúdo</h4>
         <ul>
-          <li><a href="#">Artigos sobre Cães</a></li>
-          <li><a href="#">Artigos sobre Gatos</a></li>
-          <li><a href="#">Saúde Pet</a></li>
-          <li><a href="#">Nutrição</a></li>
-          <li><a href="#">Comportamento</a></li>
+          <li><a href="caes.html">Artigos sobre Cães</a></li>
+          <li><a href="gatos.html">Artigos sobre Gatos</a></li>
+          <li><a href="saude.html">Saúde Pet</a></li>
+          <li><a href="nutricao.html">Nutrição</a></li>
+          <li><a href="comportamento.html">Comportamento</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Produtos</h4>
         <ul>
-          <li><a href="#">Melhores Rações</a></li>
-          <li><a href="#">Coleiras e Guias</a></li>
-          <li><a href="#">Camas e Casinhas</a></li>
-          <li><a href="#">Brinquedos</a></li>
-          <li><a href="#">Higiene e Beleza</a></li>
+          <li><a href="racoes-filhote.html">Melhores Rações</a></li>
+          <li><a href="produtos.html">Coleiras e Guias</a></li>
+          <li><a href="produtos.html">Camas e Casinhas</a></li>
+          <li><a href="produtos.html">Brinquedos</a></li>
+          <li><a href="produtos.html">Higiene e Beleza</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Site</h4>
         <ul>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Política de privacidade</a></li>
-          <li><a href="#">Política de afiliados</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Newsletter</a></li>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="privacidade.html">Política de privacidade</a></li>
+          <li><a href="privacidade.html">Política de afiliados</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="index.html#newsletter">Newsletter</a></li>
         </ul>
       </div>
     </div>
